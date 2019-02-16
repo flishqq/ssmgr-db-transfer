@@ -9,4 +9,4 @@ module.exports = function(table) {
   table.bigInteger('createTime').notNull();
   table.bigInteger('usedTime');
   table.string('comment').defaultTo('');
-};
+}
