@@ -1,7 +1,7 @@
 module.exports = function(table) {
   table.increments('id').primary();
   table.string('orderId').unique();
-  table.integer('orderType').defaultTo(3);
+  table.integer('orderType');
   table.string('amount');
   table.integer('user');
   table.integer('account');
